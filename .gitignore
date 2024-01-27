@@ -1,0 +1,52 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore compiled files
+dist/
+*.js
+*.js.map
+
+# Ignore logs and other runtime files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+ng.log
+
+# Ignore environment files
+*.env
+
+# Ignore dependencies
+/.pnp
+.pnp.js
+
+# Ignore local configuration
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore Angular CLI configuration
+.angular-cli.json
+.angular-cli.json.template
+.angular.json
+
+# Ignore npm configuration
+.npmrc
+
+# Ignore yarn configuration
+.yarnrc
+.yarn-integrity
+
+# Ignore IDE files
+.idea/
+
+# Ignore build output
+/dist
+
+# Ignore temporary files
+*.swp
+*~

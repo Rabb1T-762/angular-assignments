@@ -1,0 +1,34 @@
+h3 {
+  color: red;
+}
+
+.success-component {
+  background-color: mistyrose;
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px;
+}
+
+.speech-bubble {
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 0px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 120px;
+}
+
+.doggo {
+  font-size: 4em;
+}
+
+.elixir-of-life {
+  font-size: 1.5em;
+}
+
+.on-fire {
+  font-size: 3em;
+}
