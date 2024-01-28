@@ -6,4 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  userName: string = '';
+  isClickable: boolean = false;
+
+  ngOnInit() {
+  }
+
+  onUserInput() {
+    this.userName == '' ? this.isClickable = false : this.isClickable = true;
+  }
+
+  onResetUsername() {
+    this.userName = '';
+    this.isClickable = false;
+  }
 }
+
